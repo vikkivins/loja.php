@@ -1,4 +1,7 @@
 <?php
+include_once 'cabecalho.php';
+
+
   $descricao = $_COOKIE['descricao'];
   $usuario = $_COOKIE['usuario'];
   $preco = $_COOKIE['preco'];
@@ -13,4 +16,6 @@
     $tenis = "nenhum apocalipse selecionado<br>";
     $preco = 0;
   }
+
+  include_once 'rodape.php';
 ?>

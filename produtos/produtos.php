@@ -1,4 +1,6 @@
 <?php
+ include_once 'cabecalho.php';
+
     session_start();
     echo "<h3>PRODUTOS EM PROMOÇÃO</h3>";
     $nome = $_SESSION['usuario'];
@@ -18,4 +20,6 @@
     echo "</td>";
     echo "<td><a href='a13_cookie1.php?prod=6'><img src='img/apocalipse6.png' alt='Apocalipse Zumbi' height='250' width='250'><br>Apocalipse Zumbi</a><br>R$ 110.678,00";
     echo "</td>";
+
+include_once 'rodape.php';
 ?>

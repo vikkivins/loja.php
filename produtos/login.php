@@ -1,4 +1,6 @@
 <?php
+ include_once 'cabecalho.php';
+
     session_start();
 
     $usuario = $_POST['txtusuario'];
@@ -14,5 +16,6 @@
         $_SESSION['usuario'] = $usuario;
         header("Location: produtos.php");
     }
-
+    
+include_once 'rodape.php'
 ?>

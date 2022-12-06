@@ -1,5 +1,7 @@
 <?php
-   session_start();
+   include_once 'cabecalho.php';
+
+  session_start();
     $produto = $_GET['prod'];
   //setcookie()
   if(isset($produto)){
@@ -52,5 +54,7 @@
   setcookie("descricao", $apocalipse, time()+3600);
   setcookie("preco", $preco, time()+3600);
   setcookie("usuario", $_SESSION['usuario'], time()+3600);
+
+  include_once 'rodape.php';
 
 ?>
