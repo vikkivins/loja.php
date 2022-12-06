@@ -5,7 +5,7 @@
   if(isset($produto)){
     echo "<h3>Dados do produto selecionado:</h3>";
     echo "Código: $produto<br>";
-    echo "<img src='img/apocalipse$produto.jpg'><br>";
+    echo "<img src='img/apoca$produto.png' height='250' width='250'><br>";
    switch ($produto) {
       case 1:
      
@@ -22,11 +22,11 @@
          break;
       case 4:
          $apocalipse = 'Apocalipse Tornado';
-         $preco = 15.110;
+         $preco = 15.112;
          break;
       case 5:
          $apocalipse = 'Apocalipse Tsunami';
-         $preco = 27.460;
+         $preco = 27.463;
          break;
       case 6:
          $apocalipse = 'Apocalipse Zumbi';
@@ -37,7 +37,7 @@
          $preco = 0;
          break;
    }
-  echo "$apocalipse e <br> R$ $preco";
+  echo "$apocalipse <br> R$ $preco";
   echo "<br><br><a href='a13_produto.php'>FINALIZAR COMPRA</a>";
   setcookie("usuario", $_SESSION['usuario'], 3600);
   setcookie("descricao", $apocalipse, 3600);
