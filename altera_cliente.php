@@ -37,7 +37,7 @@ $linha = $consulta->fetch(PDO::FETCH_ASSOC);
             <input type="date" name="txtdatanasc" id="data" value="<?php echo "{$linha['cli_data_nasc']}"; ?>">
 
          </div>
-         <button type=" submit" class="btn" name="btnalterar">Alterar </button>
+         <button type="submit" class="btn" name="btnalterar">Alterar </button>
          <a href="listagem_clientes.php" class="btn green">Listar clientes</a>
       </form>
 
