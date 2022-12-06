@@ -10,7 +10,7 @@
     echo "<table style='align:center' border=1><tr><th>COD. PRODUTO</th><th>DESCRIÇÃO</th><th>PREÇO</th></tr><tr><td>$produto</td><td>$descricao</td><td>R$ $preco</td></tr>";
   }
   else{
-    $tenis = "nenhum tênis selecionado<br>";
+    $tenis = "nenhum apocalipse selecionado<br>";
     $preco = 0;
   }
 ?>

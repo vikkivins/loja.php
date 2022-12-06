@@ -40,9 +40,9 @@ CREATE TABLE `tab_clientes` (
 --
 
 INSERT INTO `tab_clientes` (`cli_id`, `cli_nome`, `cli_sobrenome`, `cli_fone`, `cli_data_nasc`) VALUES
-(1, 'Marina', 'Soares da Silva', '94513-3145', '2012-10-24'),
-(2, 'Jasmine', 'Souza', '95392-4578', '2002-01-14'),
-(3, 'Joana', 'Pinheiro', '97845-4578', '2003-04-20');
+(1, 'Vicenzo', 'Robertto', '91234-1234', '1890-08-22'),
+(2, 'Gianna', 'Touretto', '94321-4321', '1990-11-17'),
+(3, 'Catarina', 'Bianca', '93214-4324', '2017-04-05');
 
 --
 -- Índices para tabelas despejadas
