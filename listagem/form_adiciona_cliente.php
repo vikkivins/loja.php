@@ -34,6 +34,16 @@
                     <input type="date" name="txtdatanasc" id="txtdatanasc" class="inputUser" required>                    
                 </div>
 
+                <div class="inputBox">
+                    <label for="nome"><b>Usuário</b></label>
+                    <input type="text" name="txtusuario" id="txtusuario" class="inputUser" required>                    
+                </div>
+
+                <div class="inputBox">
+                    <label for="nome"><b>Senha</b></label>
+                    <input type="text" name="txtsenha" id="txtsenha" class="inputUser" required>                    
+                </div>
+
                 <button type="submit" name="btncadastrar" class="btn" id="btncadastrar">Adicionar</button>
 
             </fieldset>

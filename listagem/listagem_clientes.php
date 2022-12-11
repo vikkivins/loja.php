@@ -6,7 +6,7 @@
 
  ?>
 
-<title>CRUD - Lista de cloentes</title>
+<title>CRUD - Lista de clientes</title>
 </head>
 <body>
     <h1>Lista de clientes</h1>
@@ -17,6 +17,8 @@
             <th>Sobrenome</th>
             <th>Telefone</th>
             <th>Data de Nascimento</th>
+            <th>Usuário</th>
+            <th>Senha</th>
             <th colspan="2">Ações</th>
         </tr>
         <tr>
@@ -28,6 +30,8 @@
                     echo "<td>{$linha['cli_sobrenome']}</td>";
                     echo "<td>{$linha['cli_fone']}</td>";
                     echo "<td>{$linha['cli_data_nasc']}</td>";
+                    echo "<td>{$linha['cli_user']}</td>";
+                    echo "<td>{$linha['cli_senha']}</td>";
                     echo "<td><a href='altera_cliente.php?id={$linha['cli_id']}' class='btn-floating grey'><i class='material-icons'>edit</i></a></td>";
                     echo "<td><a href='exclui_cliente.php?id={$linha['cli_id']}' class='btn-floating red'><i class='material-icons'>delete</i></a></td>";
                     echo "</tr>";

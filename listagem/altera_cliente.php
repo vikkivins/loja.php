@@ -35,7 +35,14 @@ $linha = $consulta->fetch(PDO::FETCH_ASSOC);
          <div class=" input-field col s12">
             <label for="data">Data Nascimento: </label><br>
             <input type="date" name="txtdatanasc" id="data" value="<?php echo "{$linha['cli_data_nasc']}"; ?>">
-
+         </div>
+         <div class=" input-field col s12">
+            <label for="data">Usuário: </label><br>
+            <input type="text" name="txtusuario" id="txtusuario" value="<?php echo "{$linha['cli_user']}"; ?>">
+         </div>
+         <div class=" input-field col s12">
+            <label for="data">Senha: </label><br>
+            <input type="text" name="txtsenha" id="txtsenha" value="<?php echo "{$linha['cli_senha']}"; ?>">
          </div>
          <button type="submit" class="btn" name="btnalterar">Alterar </button>
          <a href="listagem_clientes.php" class="btn green">Listar clientes</a>
