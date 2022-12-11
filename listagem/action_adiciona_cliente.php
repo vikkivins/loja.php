@@ -19,6 +19,5 @@
       header('Location:listagem_clientes.php');
    }
    echo "$nome $sobrenome $data $fone";
-   echo "abdkjfabsdhjiklfbasjkdf k";
 
 ?>
